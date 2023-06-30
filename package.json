@@ -8,7 +8,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "@commitlint/prompt"
+      "path": "cz-conventional-changelog"
     }
   },
   "dependencies": {
@@ -17,8 +17,6 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "^17.6.6",
-    "@commitlint/prompt": "^17.6.6",
     "@types/node": "20.3.1",
     "@types/react": "18.2.14",
     "autoprefixer": "^10.4.14",
