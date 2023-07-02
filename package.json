@@ -1,4 +1,9 @@
 {
+  "name": "NextPresso",
+  "keywords": [
+    "blog",
+    "next"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
