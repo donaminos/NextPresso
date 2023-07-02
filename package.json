@@ -4,7 +4,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "commitlint": "commitlint --edit"
+    "commitlint": "commitlint --edit",
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   },
   "dependencies": {
     "next": "^13.4.7",
