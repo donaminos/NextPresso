@@ -10,7 +10,8 @@
     "start": "next start",
     "lint": "next lint",
     "commitlint": "commitlint --edit",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx}\""
   },
   "config": {
     "commitizen": {
