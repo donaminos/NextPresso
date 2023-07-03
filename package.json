@@ -11,7 +11,7 @@
     "lint": "next lint",
     "commitlint": "commitlint --edit",
     "commit": "git-cz",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx}\""
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md}\""
   },
   "config": {
     "commitizen": {
@@ -28,10 +28,14 @@
     "@commitlint/config-conventional": "17.6.6",
     "@types/node": "20.3.1",
     "@types/react": "18.2.14",
+    "@typescript-eslint/eslint-plugin": "5.60.1",
+    "@typescript-eslint/parser": "5.60.1",
     "autoprefixer": "10.4.14",
     "commitizen": "4.3.0",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.43.0",
+    "eslint-config-next": "13.4.7",
+    "eslint-config-prettier": "8.8.0",
     "husky": "8.0.3",
     "postcss": "8.4.24",
     "prettier": "2.8.8",
