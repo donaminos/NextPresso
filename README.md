@@ -36,6 +36,10 @@ The idea behind NextPresso is to create a blogging platform that is:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vercel](https://vercel.com/)
 
+### Backstage
+
+[Follow the journey](./docs/backstage.md)
+
 <!-- LICENSE -->
 
 ## License
