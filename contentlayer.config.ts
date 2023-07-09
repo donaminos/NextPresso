@@ -2,7 +2,7 @@ import { defineDocumentType, makeSource } from "contentlayer/source-files";
 
 export const Article = defineDocumentType(() => ({
   name: "Article",
-  filePathPattern: "**/*.mdx",
+  filePathPattern: "**/*.md",
   fields: {
     title: { type: "string", required: true },
     date: { type: "date", required: false },
