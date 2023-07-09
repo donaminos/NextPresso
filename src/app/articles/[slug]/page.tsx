@@ -1,9 +1,8 @@
 import { format, parseISO } from "date-fns";
 import { allArticles } from "contentlayer/generated";
-import { findBySlug } from "../../../helpers";
+import { findBySlug, generateStaticParams } from "../../../helpers";
 
-export const generateStaticParams = async () =>
-  allArticles.map(({ _raw }) => ({ slug: _raw.flattenedPath }));
+export { generateStaticParams };
 
 export const generateMetadata = ({ params }: { params: { slug: string } }) => {
   const article = findBySlug({

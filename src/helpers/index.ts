@@ -1,13 +1,17 @@
 import { compareDesc } from "date-fns";
 import { Article } from "contentlayer/generated";
 
+const INDEX_PAGE = "index";
+
 export const generateStaticParams = async ({ articles = [] }) =>
-  articles.map(({ _raw }) => ({ slug: _raw.flattenedPath }));
+  articles.map(({ _raw }) => ({ slug: _raw.flattenedPath || INDEX_PAGE }));
 
 export const findBySlug = ({ articles = [], slug }): Article => {
-  return slug === "index"
+  const slugWithoutExtension = slug.replace(".md", "");
+
+  return slugWithoutExtension === INDEX_PAGE
     ? articles.find(({ _raw }) => _raw.flattenedPath === "")
-    : articles.find(({ _raw }) => _raw.flattenedPath === slug);
+    : articles.find(({ _raw }) => _raw.flattenedPath === slugWithoutExtension);
 };
 
 export const sortByDate = ({ articles }: { articles: Article[] }) =>
