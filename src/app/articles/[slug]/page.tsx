@@ -1,8 +1,14 @@
 import { format, parseISO } from "date-fns";
-import { allArticles } from "contentlayer/generated";
-import { findBySlug, generateStaticParams } from "../../../helpers";
+
+import {
+  findBySlug,
+  generateStaticParams,
+  getLocalArticles,
+} from "../../../helpers";
 
 export { generateStaticParams };
+
+const allArticles = getLocalArticles();
 
 export const generateMetadata = ({ params }: { params: { slug: string } }) => {
   const article = findBySlug({
@@ -26,13 +32,12 @@ const ArticleLayout = ({ params }: { params: { slug: string } }) => {
   return (
     <article className="mx-auto max-w-xl py-8">
       <div className="mb-8 text-center">
+        <h1 className="text-3xl font-bold">{article.title}</h1>
         {article.date ? (
           <time dateTime={article.date} className="mb-1 text-xs text-gray-600">
             {format(parseISO(article.date), "LLLL d, yyyy")}
           </time>
         ) : null}
-
-        <h1 className="text-3xl font-bold">{article.title}</h1>
       </div>
       <div
         className="[&>*]:mb-3 [&>*:last-child]:mb-0"
