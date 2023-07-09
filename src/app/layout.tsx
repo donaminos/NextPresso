@@ -1,4 +1,5 @@
 import "./global.css";
+import { GithubIcon } from "./GithubIcon";
 
 export default function RootLayout({
   children,
@@ -7,7 +8,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <GithubIcon />
+        {children}
+      </body>
     </html>
   );
 }
