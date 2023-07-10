@@ -1,5 +1,5 @@
-import { ArticleCard } from "../template/ArticleCard";
-import { sortByDate, getLocalArticles } from "../helpers";
+import { ArticleCard } from "@/template/ArticleCard";
+import { sortByDate, getLocalArticles } from "@/helpers";
 
 export default function Home() {
   const articles = sortByDate({ articles: getLocalArticles() });
