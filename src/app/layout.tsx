@@ -1,5 +1,6 @@
 import "./global.css";
-import { GithubIcon } from "./GithubIcon";
+
+import { Navbar } from "@/template/Navbar";
 
 export default function RootLayout({
   children,
@@ -8,9 +9,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        <GithubIcon />
-        {children}
+      <body className="min-h-screen  text-gray-900 font-mono font-roboto">
+        <Navbar />
+        <div className="mx-auto max-w-2xl mt-48">{children}</div>
       </body>
     </html>
   );
