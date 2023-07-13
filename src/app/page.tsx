@@ -1,10 +1,10 @@
-import { HeroSection, ProgressHeadsUp } from "@/template";
+import { HeroSection, FeaturesSection } from "@/template";
 
 export default function Home() {
   return (
-    <div className="">
+    <>
       <HeroSection />
-      <ProgressHeadsUp />
-    </div>
+      <FeaturesSection />
+    </>
   );
 }
