@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Lightweight and Lean",
+    "description": "NextPresso.js is a lightweight blog engine, stripped down to the essentials. It's designed with the solo entrepreneur and indie hacker in mind, providing just the features you need without any bloat."
+  },
+  {
+    "name": "Built with Cutting-Edge Tech",
+    "description": "NextPresso.js is built on top of React 18 and Next.js 13, the technologies you know and love, making it the perfect platform for your blogging needs."
+  },
+  {
+    "name": "Complete Ownership",
+    "description": "With NextPresso.js, you're in control. You own your blog and have the freedom to do whatever you want with it. No restrictions, no limitations."
+  },
+  {
+    "name": "All-in-One Tool",
+    "description": "Say goodbye to juggling multiple tools. NextPresso.js is your all-in-one solution for creating and managing your blog. It's all you need to share your ideas with the world."
+  },
+  {
+    "name": "Simplicity at Its Core",
+    "description": "We've made the codebase as simple and accessible as possible. Customizing your blog is a breeze with NextPresso.js. Dive in and make it your own with ease."
+  },
+  {
+    "name": "One-Click Deployment",
+    "description": "Get your blog up and running in no time with our one-click deployment. Start building your online presence without any hassle."
+  }
+]

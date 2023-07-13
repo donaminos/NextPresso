@@ -1,8 +1,8 @@
 import { GithubIcon, NEXTPRESSO_GITHUB_REPO } from "./GithubIcon";
 export const Navbar = () => (
-  <div className="flex flex-col text-gray-900 font-mono font-roboto">
+  <div className="flex flex-col text-gray-900 font-mono font-roboto ">
     <nav
-      className="flex justify-around py-3 bg-white/80
+      className="flex justify-around py-3 z-10 bg-white/75
           backdrop-blur-md shadow-md w-full
           fixed top-0 left-0 right-0"
     >
