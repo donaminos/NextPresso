@@ -1,6 +1,5 @@
-import { format, parseISO } from "date-fns";
-
 import { findBySlug, generateStaticParams, getLocalArticles } from "@/helpers";
+import { format, parseISO } from "date-fns";
 
 export { generateStaticParams };
 

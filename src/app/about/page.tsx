@@ -1,5 +1,5 @@
-import { ArticleCard } from "@/template";
 import { sortByDate, getLocalArticles } from "@/helpers";
+import { ArticleCard } from "@/template";
 
 const About = () => {
   const articles = sortByDate({ articles: getLocalArticles() });

@@ -1,5 +1,6 @@
-import Link from "next/link";
 import { format, parseISO } from "date-fns";
+import Link from "next/link";
+
 import { Article } from "contentlayer/generated";
 
 export function ArticleCard(article: Article) {
