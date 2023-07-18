@@ -61,6 +61,12 @@ devDependencies:
   eslint-config-prettier:
     specifier: 8.8.0
     version: 8.8.0(eslint@8.43.0)
+  eslint-import-resolver-typescript:
+    specifier: 3.5.5
+    version: 3.5.5(@typescript-eslint/parser@5.60.1)(eslint-import-resolver-node@0.3.7)(eslint-plugin-import@2.27.5)(eslint@8.43.0)
+  eslint-plugin-import:
+    specifier: 2.27.5
+    version: 2.27.5(@typescript-eslint/parser@5.60.1)(eslint-import-resolver-typescript@3.5.5)(eslint@8.43.0)
   husky:
     specifier: 8.0.3
     version: 8.0.3
