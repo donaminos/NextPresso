@@ -1,18 +1,18 @@
-# NextPresso.js
-
-The Next blog for indie hackers
+<div style="background-color:#fff;margin:20px 0; display:flex; justify-content:center; align-items:center; padding:20px" >
+    <img src="./public/nextpresso-logo-w-name.png" />
+</div>
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 <!-- ABOUT -->
 
-## What is NextPresso.js
+# What is Nextpresso
 
 NextPresso is a modern, open-source blogging platform built with the Vercel Stack: Next.js 13, React 18, TypeScript, Prisma, and Tailwind CSS. It's designed to be simple, customizable, and easy to understand, making it a great choice for both beginners and experienced developers.
 
 Now, you might be asking yourself, "Why on earth do we need another blogging platform? Aren't there enough already?" Well, let me explain...
 
-### Why NextPresso.js
+## Why Nextpresso
 
 The idea behind NextPresso is to create a blogging platform that is:
 
@@ -26,7 +26,7 @@ The idea behind NextPresso is to create a blogging platform that is:
 
 <!-- STACK -->
 
-### Tech Stack
+## Tech Stack
 
 - [Next.js](https://nextjs.org/)
 - [React.js](https://reactjs.org/)
@@ -36,7 +36,7 @@ The idea behind NextPresso is to create a blogging platform that is:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vercel](https://vercel.com/)
 
-### Backstage
+## Backstage
 
 [Follow the journey](./docs/backstage.md)
 
