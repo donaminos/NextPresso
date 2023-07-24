@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import { GithubIcon, NEXTPRESSO_GITHUB_REPO } from "./GithubIcon";
 
 export const Navbar = () => (
@@ -8,7 +10,13 @@ export const Navbar = () => (
           fixed top-0 left-0 right-0"
     >
       <a className="flex items-center hover:opacity-75" href="/">
-        <span className="text-base font-semibold">NextPresso.js</span>
+        <Image
+          src="/nextpresso-logo-w-name.png"
+          width={160}
+          height={60}
+          alt="NextPresso logo"
+          priority
+        />
       </a>
 
       <div className="flex gap-3 font-medium">
