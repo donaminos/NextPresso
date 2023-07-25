@@ -1,8 +1,12 @@
-<div style="background-color:#fff;margin:20px 0; display:flex; justify-content:center; align-items:center; padding:20px" >
-    <img src="./public/nextpresso-logo-w-name.png" />
-</div>
+<br />
+<p align="center">
+    <img src="./.github/assets/nextpresso-logo-w-name.png" alt="Nextpresso logo" width="450px" />
+</p>
+<br />
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
+<br />
 
 <!-- ABOUT -->
 
