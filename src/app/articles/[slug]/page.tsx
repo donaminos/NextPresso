@@ -11,9 +11,15 @@ export const generateMetadata = ({ params }: { params: { slug: string } }) => {
     slug: params.slug,
   });
 
-  if (!article) throw new Error(`Article not found for slug: ${params.slug}`);
-
-  return { title: article.title };
+  return {
+    title: article?.title || "Nextpresso",
+    description:
+      article?.title ||
+      `Nextpresso article published on: ${format(
+        parseISO(article.date),
+        "LLLL d, yyyy"
+      )}`,
+  };
 };
 
 const ArticleLayout = ({ params }: { params: { slug: string } }) => {
