@@ -1,9 +1,16 @@
 {
   "name": "NextPresso",
+  "description": "The blog engine fore Next.js lovers",
   "keywords": [
     "blog",
-    "next"
+    "Next.js",
+    "React"
   ],
+  "license": "MIT",
+  "repository": "https://github.com/donaminos/NextPresso",
+  "bugs": "https://github.com/donaminos/NextPresso/issues",
+  "homepage": "https://nextpresso.vercel.app/",
+  "author": "Amine SADRY",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

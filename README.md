@@ -1,9 +1,18 @@
-<br />
+<br /><br />
+
 <p align="center">
-    <img src="./.github/assets/nextpresso-logo-w-name.png" alt="Nextpresso logo" width="450px" />
+  <a href="https://nextpresso.vercel.app">
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="./.github/assets/nextpresso-logo-w-name.png">
+      <img src="./.github/assets/nextpresso-logo-w-name.png" height="120">
+    </picture>
+  </a>
 </p>
 <br />
+<hr />
+<br />
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 <br />
@@ -48,4 +57,4 @@ The idea behind NextPresso is to create a blogging platform that is:
 
 ## License
 
-TBD
+[MIT](./LICENSE.md)
