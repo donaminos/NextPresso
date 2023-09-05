@@ -4,7 +4,7 @@ services:
   db:
     image: postgres
     env_file:
-      - .env.local
+      - .env.local # Applies inside the conainer only. Run docker-compose --env-file .env.local up 
     environment:
       POSTGRES_DB: ${DB_NAME}
       POSTGRES_USER: ${DB_USER}
