@@ -20,7 +20,10 @@
     "commitlint": "commitlint --edit",
     "commit": "git-cz",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md}\"",
-    "lintstaged": "lint-staged"
+    "lintstaged": "lint-staged",
+    "prisma:generate": "dotenv -e .env.local prisma generate",
+    "prisma:migrate:dev": "dotenv -e .env.local prisma migrate dev",
+    "prisma:studio": "dotenv -e .env.local prisma studio"
   },
   "lint-staged": {
     "*": [
@@ -34,6 +37,7 @@
     }
   },
   "dependencies": {
+    "@prisma/client": "5.2.0",
     "contentlayer": "0.3.4",
     "date-fns": "2.30.0",
     "next": "13.4.7",
@@ -51,6 +55,7 @@
     "autoprefixer": "10.4.14",
     "commitizen": "4.3.0",
     "cz-conventional-changelog": "3.3.0",
+    "dotenv-cli": "7.3.0",
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.7",
     "eslint-config-prettier": "8.8.0",
@@ -60,6 +65,7 @@
     "lint-staged": "13.2.3",
     "postcss": "8.4.24",
     "prettier": "2.8.8",
+    "prisma": "5.2.0",
     "semantic-release": "21.0.6",
     "tailwindcss": "3.3.2",
     "typescript": "5.1.3"
