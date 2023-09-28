@@ -23,7 +23,8 @@
     "lintstaged": "lint-staged",
     "prisma:generate": "dotenv -e .env.local prisma generate",
     "prisma:migrate:dev": "dotenv -e .env.local prisma migrate dev",
-    "prisma:studio": "dotenv -e .env.local prisma studio"
+    "prisma:studio": "dotenv -e .env.local prisma studio",
+    "db:local":"docker-compose --env-file .env.local up"
   },
   "lint-staged": {
     "*": [
